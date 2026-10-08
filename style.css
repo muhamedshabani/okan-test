@@ -153,7 +153,7 @@ strong { color: var(--green-hi); font-weight: 500; }
   transform-origin: left; animation: grow 1.2s cubic-bezier(.2,.8,.2,1) both;
 }
 @keyframes grow { from { transform: scaleX(0); } }
-.pct { color: var(--green-hi); }
+.pct { color: var(--green-hi); white-space: nowrap; }
 
 /* services */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
@@ -216,7 +216,7 @@ code { color: var(--green-hi); background: var(--muted); padding: 1px 6px; borde
   .status, .hide-sm { display: none; }
   .ls li { grid-template-columns: 1fr; gap: 2px; padding-bottom: 8px; }
   .perm { display: none; }
-  .meter { grid-template-columns: 90px 1fr 70px; font-size: 13px; }
+  .meter { grid-template-columns: 90px 1fr auto; font-size: 13px; }
   .kv div { grid-template-columns: 70px 1fr; }
   .lead { font-size: 16px; }
   .cmd { font-size: 14px; overflow-wrap: anywhere; }
