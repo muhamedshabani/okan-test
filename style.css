@@ -51,7 +51,7 @@ em { font-family: var(--serif); font-style: italic; font-weight: 500; }
   display: grid; place-items: center; transition: opacity .6s var(--ease), visibility .6s;
 }
 .intro.gone { opacity: 0; visibility: hidden; }
-.intro-svg { width: min(1000px, 94vw); }
+.intro-svg { width: min(1000px, 94vw); height: auto; overflow: visible; }
 .intro-text {
   font-family: var(--script); font-size: 210px; fill: transparent; stroke: #fff; stroke-width: 1.6;
   stroke-dasharray: 2200; stroke-dashoffset: 2200; animation: draw 2s var(--ease) forwards, fill .5s 1.6s forwards;
